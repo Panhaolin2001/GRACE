@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--inline', '--dse', '--aggressive-instcombine', '--gvn-hoist', '--globalopt', '--early-cse-memssa', '--sink', '--jump-threading', '--instcombine', '--loop-rotate', '--early-cse-memssa', '--reassociate', '--mem2reg', '--globalopt', '--correlated-propagation', '--licm', '--mem2reg', '--load-store-vectorizer', '--nary-reassociate', '--elim-avail-extern', '--inferattrs', '--gvn-hoist', '--reassociate', '--indvars', '--mem2reg', '--slp-vectorizer', '--tailcallelim', '--inline', '--loop-simplifycfg', '--early-cse-memssa', '--simplifycfg', '--jump-threading', '--early-cse', '--instcombine', '--early-cse-memssa', '--speculative-execution', '--globalopt', '--mem2reg', '--simplifycfg', '--mem2reg', '--mem2reg', '--simplifycfg', '--slp-vectorizer', '--gvn-hoist', '--mergefunc', '--inferattrs', '--sroa', '--early-cse', '--mem2reg', '--elim-avail-extern']
+Length: 50
+Cross-Avg Weighted Score: 0.40 (+/- 0.00)
+Cross-Avg Reduction: 2.39% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_88: Score=0.40 (Avg=2.39%, Med=1.30%, Min=-1.71%, Std=3.17%, NegRate=7.1%)

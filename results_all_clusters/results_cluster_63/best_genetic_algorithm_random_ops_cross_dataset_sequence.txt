@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--mergereturn', '--lowerinvoke', '--inferattrs', '--loop-predication', '--loop-rotate', '--mldst-motion', '--slsr', '--tailcallelim', '--tailcallelim', '--inline', '--early-cse-memssa', '--instsimplify', '--gvn-hoist', '--early-cse-memssa', '--mem2reg', '--jump-threading', '--instcombine', '--loop-simplifycfg', '--jump-threading', '--licm', '--early-cse-memssa', '--instcombine', '--nary-reassociate', '--early-cse', '--gvn-hoist', '--instcombine', '--partially-inline-libcalls', '--strip', '--instcombine', '--jump-threading', '--mem2reg', '--gvn', '--gvn', '--ipsccp', '--mergefunc', '--early-cse-memssa', '--loop-instsimplify', '--hotcoldsplit', '--loop-instsimplify', '--early-cse', '--early-cse-memssa', '--instsimplify', '--gvn-hoist', '--mem2reg', '--ipsccp', '--ipsccp', '--loop-simplifycfg', '--correlated-propagation', '--simplifycfg', '--mergefunc', '--instcombine', '--instcombine', '--reassociate', '--reassociate', '--licm', '--instcombine', '--prune-eh', '--instsimplify', '--load-store-vectorizer', '--early-cse-memssa', '--lower-expect', '--loop-instsimplify', '--instsimplify', '--simplifycfg', '--prune-eh', '--mem2reg', '--loop-deletion', '--sroa', '--simplifycfg', '--mergefunc', '--mem2reg', '--early-cse', '--loop-simplifycfg', '--early-cse-memssa', '--ipsccp', '--early-cse', '--loop-simplifycfg', '--early-cse-memssa', '--instcombine', '--lower-constant-intrinsics', '--newgvn', '--loop-simplifycfg', '--elim-avail-extern', '--gvn', '--sroa', '--mem2reg', '--instcombine', '--ipsccp', '--simplifycfg', '--gvn-hoist', '--adce', '--simplifycfg', '--sink', '--gvn-hoist', '--early-cse-memssa']
+Length: 95
+Cross-Avg Weighted Score: 4.79 (+/- 0.00)
+Cross-Avg Reduction: 6.97% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_63: Score=4.79 (Avg=6.97%, Med=6.97%, Min=2.58%, Std=4.40%, NegRate=0.0%)

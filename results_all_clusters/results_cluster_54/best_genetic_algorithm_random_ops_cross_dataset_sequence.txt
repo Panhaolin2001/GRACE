@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--gvn-hoist', '--indvars', '--reassociate', '--mergereturn', '--loop-unroll', '--mem2reg', '--loop-interchange', '--aggressive-instcombine', '--loop-simplifycfg', '--ipsccp', '--mem2reg', '--simplifycfg', '--early-cse-memssa', '--inline', '--loop-reroll', '--elim-avail-extern', '--gvn-hoist', '--newgvn', '--instcombine', '--reassociate', '--gvn-hoist', '--instcombine', '--instcombine', '--instcombine', '--simplifycfg', '--early-cse', '--aggressive-instcombine', '--ipsccp', '--nary-reassociate', '--bdce', '--mem2reg']
+Length: 31
+Cross-Avg Weighted Score: 0.78 (+/- 0.00)
+Cross-Avg Reduction: 9.15% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_54: Score=0.78 (Avg=9.15%, Med=16.00%, Min=-6.15%, Std=10.84%, NegRate=33.3%)

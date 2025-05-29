@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--loop-sink', '--simple-loop-unswitch', '--loop-guard-widening', '--lowerinvoke', '--inline', '--aggressive-instcombine', '--slsr', '--gvn-hoist', '--mergefunc', '--ipsccp', '--instcombine', '--loop-simplifycfg', '--newgvn', '--loop-reroll', '--instcombine', '--ipsccp', '--loop-simplifycfg', '--newgvn', '--speculative-execution', '--licm', '--sroa', '--bdce', '--simplifycfg', '--early-cse', '--licm', '--loop-simplifycfg', '--loop-simplifycfg', '--early-cse', '--ipsccp', '--simplifycfg', '--correlated-propagation', '--inline', '--aggressive-instcombine', '--prune-eh', '--aggressive-instcombine', '--simplifycfg', '--gvn-hoist', '--newgvn', '--inline']
+Length: 39
+Cross-Avg Weighted Score: 1.41 (+/- 0.00)
+Cross-Avg Reduction: 2.40% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_64: Score=1.41 (Avg=2.40%, Med=1.09%, Min=0.00%, Std=3.86%, NegRate=0.0%)

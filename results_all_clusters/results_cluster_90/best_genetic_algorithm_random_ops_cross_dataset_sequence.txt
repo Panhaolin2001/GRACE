@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--ipconstprop', '--loop-unroll-and-jam', '--loop-instsimplify', '--loop-deletion', '-loop-reduce', '--ipsccp', '--slsr', '--globalopt', '--sroa', '--prune-eh', '--loop-unroll', '--licm', '--reassociate', '--aggressive-instcombine', '--slp-vectorizer', '--simplifycfg', '--lower-constant-intrinsics', '--loop-guard-widening', '--inferattrs', '--strip', '--jump-threading', '--early-cse', '--early-cse-memssa', '--mergefunc', '--bdce', '--elim-avail-extern', '--lowerswitch', '--nary-reassociate', '--sink', '--mergereturn', '--instsimplify', '--globaldce', '--adce', '--partially-inline-libcalls', '--loop-predication', '--loop-simplifycfg', '--sccp', '--lowerswitch', '--dce', '--break-crit-edges', '--licm', '--mem2reg', '--simple-loop-unswitch', '--separate-const-offset-from-gep', '--lowerinvoke', '--bdce', '--newgvn', '--speculative-execution', '-loop-reduce', '--early-cse-memssa', '--hotcoldsplit', '--gvn-hoist', '--loop-reroll', '--loop-interchange', '--irce', '--separate-const-offset-from-gep', '--instcombine', '--dse', '--loop-fusion', '--tailcallelim', '--simple-loop-unswitch', '--dce', '--reg2mem', '--functionattrs', '--die', '--indvars', '--scalarizer', '--loweratomic', '--newgvn', '--loop-sink', '--correlated-propagation', '--loop-interchange', '--loop-rotate', '--flattencfg', '--inline', '--loop-idiom']
+Length: 76
+Cross-Avg Weighted Score: 0.00 (+/- 0.00)
+Cross-Avg Reduction: 0.00% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_90: Score=0.00 (Avg=0.00%, Med=0.00%, Min=0.00%, Std=0.00%, NegRate=0.0%)

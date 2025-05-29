@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--loop-instsimplify', '--adce', '--lower-constant-intrinsics', '--reassociate', '--simple-loop-unswitch', '--gvn', '--loop-simplifycfg', '--sroa', '--loop-reroll', '--ipsccp', '--licm', '--instcombine', '--elim-avail-extern', '--newgvn', '--instsimplify', '--memcpyopt', '--sroa', '--simplifycfg', '--gvn-hoist', '--gvn', '--lowerinvoke', '--sroa', '--licm', '--simplifycfg', '--mem2reg', '--gvn', '--elim-avail-extern', '--elim-avail-extern', '--loop-guard-widening', '--early-cse-memssa', '--gvn-hoist', '--instcombine', '--lower-constant-intrinsics', '--mergefunc', '--instsimplify', '--loop-simplifycfg', '--ipsccp', '--gvn', '--early-cse-memssa', '--elim-avail-extern', '--prune-eh', '--early-cse-memssa', '--adce', '--mldst-motion', '--instcombine', '--jump-threading', '--jump-threading', '--correlated-propagation', '--slp-vectorizer', '--sink', '--slp-vectorizer', '--sink', '--ipsccp', '--licm', '--instcombine', '--lowerinvoke', '--sroa', '--jump-threading', '--early-cse', '--sroa', '--simplifycfg', '--ipsccp', '--instcombine', '--nary-reassociate', '--inline', '--aggressive-instcombine']
+Length: 66
+Cross-Avg Weighted Score: 2.28 (+/- 0.00)
+Cross-Avg Reduction: 3.68% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_96: Score=2.28 (Avg=3.68%, Med=0.69%, Min=0.10%, Std=4.79%, NegRate=0.0%)

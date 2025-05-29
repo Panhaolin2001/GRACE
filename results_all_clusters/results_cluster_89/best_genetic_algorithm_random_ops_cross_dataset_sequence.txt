@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--mem2reg', '-loop-reduce', '--mergefunc', '--instcombine', '--mem2reg', '--early-cse-memssa', '--aggressive-instcombine', '--mem2reg', '--globalopt', '--dce', '--loweratomic', '--jump-threading', '--bdce', '--flattencfg', '--indvars', '--flattencfg', '--indvars', '--lower-expect', '--loop-idiom', '--dse', '--prune-eh', '--load-store-vectorizer', '--globaldce', '--correlated-propagation', '--sink', '--nary-reassociate', '--sroa', '--lower-constant-intrinsics', '--ipsccp', '--gvn-hoist', '--nary-reassociate', '--jump-threading', '--mergefunc', '--instcombine', '--sroa', '--sccp', '--ipsccp', '--mem2reg', '--lower-expect', '--gvn', '--instsimplify', '--licm', '--loop-instsimplify', '--loop-instsimplify', '--ipsccp', '--sccp', '--mergefunc', '--adce', '--early-cse-memssa', '--globalopt', '--instcombine', '--ipsccp', '--sccp', '--elim-avail-extern', '--tailcallelim', '--sroa', '--nary-reassociate', '--sroa', '--lower-constant-intrinsics', '--ipsccp', '--nary-reassociate', '--jump-threading', '--mergefunc', '--instcombine', '--sroa', '--lower-constant-intrinsics', '--ipsccp', '--mem2reg', '--lower-expect', '--licm']
+Length: 70
+Cross-Avg Weighted Score: 4.85 (+/- 0.00)
+Cross-Avg Reduction: 8.22% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_89: Score=4.85 (Avg=8.22%, Med=0.00%, Min=0.00%, Std=13.12%, NegRate=0.0%)

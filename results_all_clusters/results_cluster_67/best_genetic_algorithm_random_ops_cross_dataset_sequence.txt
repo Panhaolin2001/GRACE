@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--gvn', '--sink', '--functionattrs', '--inline', '--inline', '--gvn-hoist', '--lower-constant-intrinsics', '--mergefunc', '--simplifycfg', '--aggressive-instcombine', '--adce', '--simple-loop-unswitch', '--inferattrs', '--simplifycfg', '--sccp', '--die', '--ipsccp', '--mem2reg', '--globalopt', '--simplifycfg', '--slsr', '--lowerinvoke', '--globalopt', '--jump-threading', '--speculative-execution', '--sroa', '--sroa', '--reassociate', '--reassociate', '--reassociate', '--mem2reg', '--reassociate', '--globalopt', '--lowerinvoke', '--slp-vectorizer', '--instcombine', '--newgvn', '--simplifycfg', '--gvn-hoist', '--instcombine', '--adce', '--jump-threading', '--mergefunc']
+Length: 43
+Cross-Avg Weighted Score: 3.87 (+/- 0.00)
+Cross-Avg Reduction: 6.37% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_67: Score=3.87 (Avg=6.37%, Med=2.15%, Min=0.00%, Std=9.16%, NegRate=0.0%)

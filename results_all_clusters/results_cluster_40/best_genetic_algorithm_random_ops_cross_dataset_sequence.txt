@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--loop-reroll', '--instcombine', '--sroa', '--mem2reg', '--gvn-hoist', '--indvars', '--loop-instsimplify', '--indvars', '--mldst-motion', '--early-cse', '--lower-constant-intrinsics', '--bdce', '--loop-fusion', '--memcpyopt', '--newgvn', '--slp-vectorizer', '--loop-simplify', '--simplifycfg', '--gvn-hoist', '--aggressive-instcombine', '--slp-vectorizer', '--lower-expect', '--simplifycfg', '--lower-constant-intrinsics', '--slp-vectorizer', '--globalopt', '--elim-avail-extern', '--ipsccp', '--sroa', '--nary-reassociate', '--lower-constant-intrinsics', '--lower-constant-intrinsics', '--jump-threading', '--globalopt', '--sink', '--elim-avail-extern', '--instcombine', '--jump-threading', '--loop-predication', '--gvn-hoist', '--correlated-propagation', '--mldst-motion', '--lower-constant-intrinsics', '--adce', '--speculative-execution', '--speculative-execution', '--loop-versioning-licm', '--mergefunc', '--gvn-hoist', '--functionattrs', '--newgvn', '--newgvn', '--sccp', '--simplifycfg', '--dse', '--gvn-hoist', '--instcombine', '--adce', '--adce', '--simplifycfg']
+Length: 60
+Cross-Avg Weighted Score: 7.31 (+/- 0.00)
+Cross-Avg Reduction: 14.23% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_40: Score=7.31 (Avg=14.23%, Med=6.74%, Min=-48.08%, Std=19.01%, NegRate=9.7%)

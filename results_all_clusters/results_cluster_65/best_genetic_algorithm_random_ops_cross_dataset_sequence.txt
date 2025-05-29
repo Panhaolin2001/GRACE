@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--functionattrs', '--elim-avail-extern', '--elim-avail-extern', '--globalopt', '--loop-simplifycfg', '--inline', '--dce', '--loop-sink', '--globalopt', '--loop-guard-widening', '--adce', '--simplifycfg', '--mem2reg', '--loop-simplify', '--jump-threading', '--lower-expect', '--correlated-propagation', '--early-cse', '--instcombine', '--gvn-hoist', '--gvn-hoist', '--elim-avail-extern', '--gvn', '--slp-vectorizer', '--gvn', '--inferattrs', '--nary-reassociate', '--reassociate', '--lower-constant-intrinsics', '--lower-constant-intrinsics', '--loop-instsimplify', '--mergefunc', '--jump-threading', '--globalopt', '--elim-avail-extern', '--instcombine', '--simplifycfg', '--sroa', '--mem2reg', '--loop-sink', '--speculative-execution', '--sccp', '--early-cse', '--lower-constant-intrinsics', '--lower-constant-intrinsics', '--adce', '--gvn-hoist', '--loop-guard-widening', '--reassociate', '--adce', '--newgvn', '--simplifycfg', '--lower-expect', '--inferattrs', '--aggressive-instcombine', '--loop-reroll', '--gvn-hoist', '--instcombine', '--gvn-hoist', '--elim-avail-extern', '--gvn', '--gvn', '--ipsccp', '--gvn', '--mergereturn', '--correlated-propagation', '--lower-constant-intrinsics', '--nary-reassociate', '--early-cse', '--early-cse', '--lower-constant-intrinsics', '--gvn-hoist', '--newgvn', '--globalopt', '--elim-avail-extern', '--instcombine', '--simplifycfg', '--sroa', '--lower-constant-intrinsics', '--lower-expect', '--sroa', '--simplifycfg', '--lower-constant-intrinsics', '--lower-expect', '--sroa', '--sccp', '--sroa', '--lower-expect', '--early-cse', '--elim-avail-extern', '--instcombine']
+Length: 91
+Cross-Avg Weighted Score: 5.60 (+/- 0.00)
+Cross-Avg Reduction: 13.12% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_65: Score=5.60 (Avg=13.12%, Med=3.75%, Min=-23.47%, Std=19.60%, NegRate=15.2%)

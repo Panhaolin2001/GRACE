@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--functionattrs', '--gvn', '--sccp', '--instsimplify', '--ipsccp', '--mem2reg', '--lower-expect', '--gvn', '--instsimplify', '--licm', '--loop-instsimplify', '--lower-expect', '--ipsccp', '--sccp', '--lower-expect', '--adce', '--early-cse-memssa', '--globalopt', '--instcombine', '--simplifycfg', '--globalopt', '--gvn-hoist', '--early-cse', '--simplifycfg', '--ipsccp', '--elim-avail-extern', '--nary-reassociate', '--sroa', '--lower-constant-intrinsics', '--ipsccp', '--gvn-hoist', '--nary-reassociate', '--jump-threading', '--mergefunc', '--instcombine', '--sroa', '--sccp', '--instsimplify', '--ipsccp', '--mem2reg', '--lower-expect', '--gvn', '--instsimplify', '--licm', '--loop-instsimplify', '--lower-expect', '--ipsccp', '--sccp', '--lower-expect', '--adce', '--early-cse-memssa', '--globalopt', '--instcombine', '--ipsccp', '--elim-avail-extern', '--nary-reassociate', '--sroa', '--lower-constant-intrinsics', '--ipsccp', '--gvn-hoist', '--nary-reassociate', '--jump-threading', '--mergefunc', '--instcombine', '--sroa', '--sccp', '--instsimplify', '--ipsccp', '--mem2reg', '--lower-expect', '--licm']
+Length: 71
+Cross-Avg Weighted Score: 0.00 (+/- 0.00)
+Cross-Avg Reduction: 0.00% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_39: Score=0.00 (Avg=0.00%, Med=0.00%, Min=0.00%, Std=0.00%, NegRate=0.0%)

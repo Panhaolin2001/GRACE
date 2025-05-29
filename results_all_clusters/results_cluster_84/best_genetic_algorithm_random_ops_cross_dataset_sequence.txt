@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--reassociate', '--gvn', '--load-store-vectorizer', '--early-cse-memssa', '--speculative-execution', '--sroa', '--ipsccp', '--load-store-vectorizer', '--mem2reg', '--gvn-hoist', '--prune-eh', '--instcombine', '--lower-expect', '--slp-vectorizer', '--simplifycfg', '--mem2reg', '--ipsccp', '--gvn-hoist', '--globalopt', '--mem2reg', '--early-cse-memssa', '--reassociate', '--ipsccp', '--lower-constant-intrinsics', '--early-cse', '--ipsccp', '--gvn-hoist', '--sink', '--nary-reassociate', '--gvn', '--mergefunc', '--instcombine', '--mergefunc', '--sroa', '--mem2reg', '--lower-constant-intrinsics', '--early-cse-memssa', '--mem2reg', '--newgvn', '--simplifycfg', '--instsimplify', '--aggressive-instcombine', '--mem2reg', '--prune-eh', '--globalopt', '--ipsccp', '--adce', '--adce', '--newgvn', '--sroa', '--adce', '--newgvn', '--memcpyopt', '--gvn-hoist', '--sroa', '--sroa']
+Length: 56
+Cross-Avg Weighted Score: 2.24 (+/- 0.00)
+Cross-Avg Reduction: 4.76% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_84: Score=2.24 (Avg=4.76%, Med=0.81%, Min=0.00%, Std=13.32%, NegRate=0.0%)

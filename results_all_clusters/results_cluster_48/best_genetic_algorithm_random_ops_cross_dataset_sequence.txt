@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--elim-avail-extern', '--early-cse', '--lower-constant-intrinsics', '--adce', '--gvn-hoist', '--adce', '--lower-constant-intrinsics', '--newgvn', '--simplifycfg', '--lower-expect', '--simplifycfg', '--gvn-hoist', '--instcombine', '--globalopt', '--elim-avail-extern', '--gvn', '--gvn', '--ipsccp', '--gvn', '--nary-reassociate', '--mem2reg', '--jump-threading', '--elim-avail-extern', '--lower-constant-intrinsics', '--nary-reassociate', '--lower-expect', '--lower-constant-intrinsics', '--newgvn', '--elim-avail-extern', '--licm', '--instcombine', '--globalopt', '--elim-avail-extern', '--gvn', '--gvn', '--ipsccp', '--gvn', '--nary-reassociate', '--mem2reg', '--ipsccp', '--early-cse-memssa', '--nary-reassociate', '--sroa', '--sccp', '--sroa', '--lower-expect', '--globalopt', '--elim-avail-extern', '--lower-constant-intrinsics', '--globalopt']
+Length: 50
+Cross-Avg Weighted Score: 0.00 (+/- 0.00)
+Cross-Avg Reduction: 0.00% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_48: Score=0.00 (Avg=0.00%, Med=0.00%, Min=0.00%, Std=0.00%, NegRate=0.0%)

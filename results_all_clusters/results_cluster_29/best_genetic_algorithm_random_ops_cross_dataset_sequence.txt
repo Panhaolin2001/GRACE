@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--loop-vectorize', '--aggressive-instcombine', '--functionattrs', '--correlated-propagation', '--lowerinvoke', '--functionattrs', '--instsimplify', '--loop-reroll', '--loop-reroll', '--die', '--simplifycfg', '--gvn', '--globalopt', '--nary-reassociate', '--gvn-hoist', '--inline', '--early-cse-memssa', '--instcombine', '--jump-threading', '--mergefunc', '--licm', '--elim-avail-extern', '--licm', '--simplifycfg', '--ipsccp', '--flattencfg', '--mem2reg', '--ipsccp', '--globalopt', '--lower-constant-intrinsics', '--aggressive-instcombine', '--ipconstprop', '--loop-deletion', '--sccp', '--speculative-execution', '--elim-avail-extern', '--jump-threading', '--newgvn', '--simplifycfg', '--mergefunc', '--jump-threading', '--jump-threading', '--loop-idiom', '--mem2reg', '--simplifycfg', '--loop-idiom', '--jump-threading', '--jump-threading', '--ipsccp', '--early-cse', '--globalopt', '--functionattrs', '--globalopt', '--simplifycfg']
+Length: 54
+Cross-Avg Weighted Score: 1.52 (+/- 0.00)
+Cross-Avg Reduction: 2.70% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_29: Score=1.52 (Avg=2.70%, Med=0.61%, Min=0.00%, Std=5.07%, NegRate=0.0%)

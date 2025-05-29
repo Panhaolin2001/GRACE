@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--reassociate', '--early-cse-memssa', '--loop-rotate', '--loop-simplifycfg', '--mem2reg', '--lower-expect', '--loop-instsimplify', '--early-cse', '--mem2reg', '--lower-expect', '--loop-instsimplify', '--loop-predication', '--early-cse', '--adce', '--early-cse', '--gvn-hoist', '--prune-eh', '--simplifycfg', '--ipsccp', '--nary-reassociate', '--instcombine', '--mem2reg', '--sink', '--sccp', '--lower-constant-intrinsics', '--mergefunc', '--functionattrs', '--instsimplify', '--early-cse-memssa', '--slsr', '--loop-instsimplify', '--early-cse', '--early-cse-memssa', '--instsimplify', '--early-cse-memssa', '--loop-instsimplify', '--early-cse', '--functionattrs', '--instsimplify', '--gvn-hoist', '--prune-eh', '--correlated-propagation', '--simplifycfg', '--slp-vectorizer', '--ipsccp', '--mergefunc', '--instcombine', '--ipsccp', '--mergefunc', '--instcombine', '--loop-simplifycfg', '--loop-unswitch', '--ipsccp', '--gvn', '--reassociate', '--gvn', '--sroa', '--nary-reassociate', '--lower-constant-intrinsics', '--lower-constant-intrinsics', '--jump-threading', '--mem2reg', '--lower-expect', '--gvn-hoist', '--irce', '--mem2reg', '--ipsccp', '--instcombine', '--sroa', '--simplifycfg', '--mergefunc', '--sink', '--early-cse', '--loop-simplifycfg', '--loop-instsimplify', '--early-cse-memssa', '--ipsccp', '--loop-simplifycfg', '--loop-unroll', '--newgvn', '--newgvn', '--sroa', '--mem2reg', '--sroa', '--lowerinvoke', '--memcpyopt', '--ipsccp', '--globalopt', '--early-cse-memssa', '--mem2reg', '--mem2reg', '--instcombine', '--adce', '--loop-guard-widening', '--simplifycfg', '--gvn-hoist', '--gvn-hoist', '--early-cse-memssa']
+Length: 98
+Cross-Avg Weighted Score: 0.79 (+/- 0.00)
+Cross-Avg Reduction: 4.55% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_44: Score=0.79 (Avg=4.55%, Med=2.08%, Min=-0.12%, Std=7.49%, NegRate=12.5%)

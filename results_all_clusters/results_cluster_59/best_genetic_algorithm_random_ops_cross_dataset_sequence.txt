@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--inline', '--inferattrs', '--nary-reassociate', '--early-cse-memssa', '--gvn-hoist', '--simplifycfg', '--ipsccp', '--speculative-execution', '--lower-constant-intrinsics', '--sroa', '--mldst-motion', '--speculative-execution', '--jump-threading', '--globalopt', '--instcombine', '--mem2reg', '--jump-threading', '--newgvn', '--dse', '--nary-reassociate', '--jump-threading', '--lower-constant-intrinsics', '--ipsccp', '--dse', '--globalopt', '--early-cse', '--slp-vectorizer', '--gvn-hoist', '--indvars', '--globalopt', '--early-cse-memssa', '--gvn-hoist', '--mem2reg', '--indvars', '--indvars', '--simplifycfg', '--jump-threading', '--adce', '--elim-avail-extern', '--instcombine', '--gvn-hoist', '--functionattrs', '--loop-simplifycfg', '--newgvn', '--newgvn', '--simplifycfg', '--correlated-propagation', '--gvn-hoist', '--sccp', '--newgvn', '--gvn-hoist', '--globalopt']
+Length: 52
+Cross-Avg Weighted Score: -0.93 (+/- 0.00)
+Cross-Avg Reduction: 5.71% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_59: Score=-0.93 (Avg=5.71%, Med=1.72%, Min=-57.01%, Std=14.93%, NegRate=24.8%)

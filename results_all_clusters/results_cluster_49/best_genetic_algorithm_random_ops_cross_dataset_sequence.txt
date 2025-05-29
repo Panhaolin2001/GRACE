@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--loop-sink', '--loop-reroll', '--loop-idiom', '--strip', '--newgvn', '--ipconstprop', '--flattencfg', '--ipconstprop', '--loop-predication', '--inline', '--instcombine', '--simplifycfg', '--gvn-hoist', '--correlated-propagation', '--elim-avail-extern', '--gvn', '--irce', '--elim-avail-extern', '--gvn', '--gvn', '--loop-versioning-licm', '--mem2reg', '--jump-threading', '--lower-expect', '--gvn', '--elim-avail-extern', '--instcombine', '--lowerinvoke', '--jump-threading', '--nary-reassociate', '--sroa', '--speculative-execution', '--globalopt', '--nary-reassociate', '--mem2reg', '--sroa', '--mem2reg', '--indvars', '--flattencfg', '--gvn', '--ipsccp', '--sroa', '--correlated-propagation', '--simplifycfg', '--dse', '--bdce', '--globalopt', '--mergefunc', '--gvn']
+Length: 49
+Cross-Avg Weighted Score: 4.60 (+/- 0.00)
+Cross-Avg Reduction: 13.08% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_49: Score=4.60 (Avg=13.08%, Med=0.27%, Min=-11.39%, Std=22.12%, NegRate=20.0%)

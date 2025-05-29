@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--gvn-hoist', '--lower-constant-intrinsics', '--reassociate', '--early-cse', '--mem2reg', '--jump-threading', '--loop-instsimplify', '--elim-avail-extern', '--elim-avail-extern', '--loop-instsimplify', '--globalopt', '--simplifycfg', '--newgvn', '--loop-unroll-and-jam', '--strip', '--sroa', '--gvn-hoist', '--partially-inline-libcalls', '--adce', '--nary-reassociate', '--instcombine', '--early-cse', '--licm', '--licm', '--licm', '--instcombine', '--gvn', '--jump-threading', '--prune-eh', '--loop-guard-widening', '--licm', '--simplifycfg', '--correlated-propagation', '--speculative-execution', '--jump-threading', '--gvn', '--instsimplify', '--mergefunc', '--loop-unroll-and-jam', '--lowerinvoke', '--simplifycfg', '--gvn', '--ipsccp', '--simplifycfg', '--gvn', '--ipsccp', '--sroa', '--elim-avail-extern', '--early-cse-memssa', '--loop-unroll-and-jam', '--gvn-hoist', '--loop-instsimplify', '--instcombine', '--jump-threading', '--adce', '--instcombine', '--simplifycfg', '--simplifycfg', '--partially-inline-libcalls', '--slsr', '--gvn', '--early-cse-memssa', '--gvn', '--globalopt']
+Length: 64
+Cross-Avg Weighted Score: 3.07 (+/- 0.00)
+Cross-Avg Reduction: 4.78% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_30: Score=3.07 (Avg=4.78%, Med=3.61%, Min=0.14%, Std=5.15%, NegRate=0.0%)

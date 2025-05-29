@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--newgvn', '--mergefunc', '--early-cse', '--mem2reg', '--loop-instsimplify', '--sink', '--mergefunc', '--instcombine', '--mem2reg', '--gvn', '--elim-avail-extern', '--simplifycfg', '--mergereturn', '--sink', '--mergefunc', '--instcombine', '--mem2reg', '--mem2reg', '--mem2reg', '--jump-threading', '--mem2reg', '--adce', '--sink', '--sink', '--elim-avail-extern', '--dse', '--early-cse', '--newgvn', '--gvn-hoist', '--gvn-hoist', '--mem2reg', '--elim-avail-extern', '--instcombine', '--early-cse', '--lowerinvoke', '--simplifycfg', '--newgvn', '--globaldce', '--simplifycfg', '--gvn', '--ipsccp', '--instsimplify', '--gvn-hoist', '--mergefunc', '--gvn', '--mergefunc']
+Length: 46
+Cross-Avg Weighted Score: 4.17 (+/- 0.00)
+Cross-Avg Reduction: 6.40% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_80: Score=4.17 (Avg=6.40%, Med=6.40%, Min=0.13%, Std=6.27%, NegRate=0.0%)

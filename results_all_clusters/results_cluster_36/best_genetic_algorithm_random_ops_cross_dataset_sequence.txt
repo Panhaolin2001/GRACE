@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--flattencfg', '--load-store-vectorizer', '--gvn-hoist', '--slp-vectorizer', '--gvn-hoist', '--gvn', '--sroa', '--ipsccp', '--sccp', '--sccp', '--loop-unroll-and-jam', '--simplifycfg', '--load-store-vectorizer', '--slp-vectorizer', '--globalopt', '--mergefunc', '--sroa', '--elim-avail-extern', '--load-store-vectorizer', '--lower-constant-intrinsics', '--gvn', '--die', '--mem2reg', '--slsr', '--reassociate', '--early-cse-memssa', '--simplifycfg', '--slp-vectorizer', '--slsr', '--mem2reg', '--sroa', '--nary-reassociate', '--slp-vectorizer', '--mem2reg', '--nary-reassociate', '--speculative-execution', '--aggressive-instcombine', '--aggressive-instcombine', '--adce', '--early-cse-memssa', '--prune-eh', '--early-cse-memssa', '--inline', '--gvn-hoist', '--mem2reg', '--instsimplify', '--mem2reg', '--instcombine', '--jump-threading', '--mem2reg', '--loop-vectorize', '--load-store-vectorizer', '--instsimplify', '--sroa', '--mem2reg', '--simplifycfg']
+Length: 56
+Cross-Avg Weighted Score: 1.95 (+/- 0.00)
+Cross-Avg Reduction: 3.49% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_36: Score=1.95 (Avg=3.49%, Med=0.75%, Min=0.00%, Std=6.71%, NegRate=0.0%)

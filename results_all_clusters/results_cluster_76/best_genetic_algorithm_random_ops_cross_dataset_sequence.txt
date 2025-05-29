@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--nary-reassociate', '--lower-constant-intrinsics', '--loop-instsimplify', '--early-cse', '--mem2reg', '--jump-threading', '--globalopt', '--elim-avail-extern', '--instcombine', '--adce', '--reg2mem', '--simplifycfg', '--early-cse-memssa', '--mem2reg', '--ipsccp', '--instcombine', '--prune-eh', '--early-cse-memssa', '--mergefunc', '--loop-instsimplify', '--newgvn', '--lower-constant-intrinsics', '--early-cse-memssa', '--loop-unroll-and-jam', '--instsimplify', '--load-store-vectorizer', '--loop-simplifycfg', '--mergefunc', '--simplifycfg', '--lower-expect', '--loop-instsimplify', '--adce', '--jump-threading', '--gvn', '--simplifycfg', '--instsimplify', '--gvn-hoist', '--slp-vectorizer', '--scalarizer', '--loop-rotate', '--reg2mem', '--tailcallelim', '--dce', '--instcombine']
+Length: 44
+Cross-Avg Weighted Score: 7.64 (+/- 0.00)
+Cross-Avg Reduction: 10.19% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_76: Score=7.64 (Avg=10.19%, Med=10.19%, Min=10.19%, Std=0.00%, NegRate=0.0%)

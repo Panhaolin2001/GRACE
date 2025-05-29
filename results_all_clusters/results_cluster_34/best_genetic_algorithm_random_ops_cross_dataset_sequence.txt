@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--flattencfg', '--loop-idiom', '--simple-loop-unswitch', '--loop-simplifycfg', '--simplifycfg', '--sccp', '--mem2reg', '--reassociate', '--instcombine', '--loop-reroll', '--gvn-hoist', '--elim-avail-extern', '--instcombine', '--ipsccp', '--early-cse-memssa', '--adce', '--simplifycfg', '--instcombine', '--gvn', '--gvn-hoist', '--gvn', '--ipsccp', '--globalopt', '--newgvn', '--ipsccp', '--aggressive-instcombine', '--elim-avail-extern', '--elim-avail-extern', '--instcombine', '--irce', '--adce', '--jump-threading', '--gvn', '--lowerinvoke', '--instsimplify', '--gvn-hoist', '--mergefunc', '--loop-simplifycfg', '--mem2reg', '--licm', '--licm', '--adce', '--early-cse-memssa', '--loop-idiom', '--licm', '--simplifycfg', '--early-cse-memssa', '--ipsccp', '--gvn', '--early-cse-memssa', '--speculative-execution', '--gvn', '--gvn']
+Length: 53
+Cross-Avg Weighted Score: 0.62 (+/- 0.00)
+Cross-Avg Reduction: 1.06% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_34: Score=0.62 (Avg=1.06%, Med=0.43%, Min=0.00%, Std=1.74%, NegRate=0.0%)

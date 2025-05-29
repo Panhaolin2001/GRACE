@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--nary-reassociate', '--early-cse-memssa', '--loop-deletion', '--instsimplify', '--gvn-hoist', '--loop-simplifycfg', '--nary-reassociate', '--mem2reg', '--mem2reg', '--gvn-hoist', '--licm', '--globalopt', '--instcombine', '--correlated-propagation', '--gvn-hoist', '--lower-expect', '--loop-instsimplify', '--early-cse', '--early-cse', '--early-cse-memssa', '--gvn-hoist', '--gvn-hoist', '--instcombine', '--sroa', '--loop-vectorize', '--mem2reg', '--loop-simplifycfg', '--lower-constant-intrinsics', '--early-cse-memssa', '--instcombine', '--adce', '--sroa', '--aggressive-instcombine', '--die', '--sroa', '--sccp', '--die', '--gvn', '--jump-threading', '--jump-threading', '--newgvn', '--simplifycfg', '--elim-avail-extern', '--ipsccp', '--elim-avail-extern', '--ipsccp', '--jump-threading', '--loop-instsimplify', '--early-cse', '--gvn', '--jump-threading', '--newgvn', '--simplifycfg', '--ipsccp', '--elim-avail-extern', '--ipsccp', '--jump-threading', '--irce', '--lower-constant-intrinsics', '--adce', '--loop-simplifycfg', '--instcombine', '--sccp', '--lower-constant-intrinsics', '--instcombine', '--mem2reg', '--sroa', '--mem2reg', '--early-cse', '--elim-avail-extern', '--globaldce', '--adce', '--gvn-hoist', '--early-cse-memssa', '--correlated-propagation', '--licm', '--loop-instsimplify', '--early-cse', '--lower-expect', '--newgvn', '--bdce', '--newgvn', '--die', '--gvn-hoist', '--gvn', '--gvn', '--indvars', '--sink', '--mem2reg', '--loop-predication', '--bdce', '--bdce', '--slp-vectorizer', '--indvars', '--newgvn', '--instcombine', '--gvn', '--newgvn', '--instcombine', '--simplifycfg']
+Length: 100
+Cross-Avg Weighted Score: 0.82 (+/- 0.00)
+Cross-Avg Reduction: 1.20% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_37: Score=0.82 (Avg=1.20%, Med=1.22%, Min=0.12%, Std=0.75%, NegRate=0.0%)

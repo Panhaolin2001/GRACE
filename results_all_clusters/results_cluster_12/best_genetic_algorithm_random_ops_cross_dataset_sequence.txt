@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--die', '--sroa', '--instcombine', '--instcombine', '--mem2reg', '--hotcoldsplit', '--loop-interchange', '--reassociate', '--instcombine', '--newgvn', '--loop-rotate', '--bdce', '--loop-rotate', '--sink', '--hotcoldsplit', '--loop-simplifycfg', '--sroa', '--instsimplify', '--simple-loop-unswitch', '--hotcoldsplit', '--newgvn', '--functionattrs', '--elim-avail-extern', '--loop-fusion', '--slp-vectorizer', '--gvn-hoist', '--sroa', '-loop-reduce', '--instcombine', '--adce', '--simplifycfg', '--slsr', '--loop-unroll-and-jam', '--loop-instsimplify', '--inferattrs', '--slp-vectorizer', '--strip', '--loop-unroll', '--dse', '--separate-const-offset-from-gep', '--newgvn', '--simplifycfg', '--gvn-hoist', '--ipsccp', '--instcombine', '--adce', '--early-cse', '--lower-expect', '--globalopt', '--elim-avail-extern', '--lower-constant-intrinsics', '--globalopt']
+Length: 52
+Cross-Avg Weighted Score: 0.91 (+/- 0.00)
+Cross-Avg Reduction: 1.22% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_12: Score=0.91 (Avg=1.22%, Med=1.22%, Min=1.22%, Std=0.00%, NegRate=0.0%)

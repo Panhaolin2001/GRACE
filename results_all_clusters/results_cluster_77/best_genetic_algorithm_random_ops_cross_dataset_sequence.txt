@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--loop-idiom', '--gvn-hoist', '--mem2reg', '--gvn', '--early-cse-memssa', '--mem2reg', '--aggressive-instcombine', '--gvn-hoist', '--globalopt', '--gvn', '--loop-instsimplify', '--instcombine', '--instcombine', '--elim-avail-extern', '--simple-loop-unswitch', '--simplifycfg', '--inferattrs', '--loop-unroll', '--correlated-propagation', '--newgvn', '--simplifycfg', '--early-cse-memssa', '--nary-reassociate', '--instsimplify', '--gvn-hoist', '--globalopt', '--licm', '--early-cse-memssa', '--dse', '--nary-reassociate', '--adce', '--jump-threading', '--jump-threading', '--loop-unroll', '--gvn', '--speculative-execution', '--simplifycfg', '--instsimplify', '--early-cse', '--sroa', '--sroa', '--early-cse', '--correlated-propagation', '--lower-constant-intrinsics', '--reassociate', '--early-cse', '--early-cse', '--ipsccp', '--inline', '--gvn', '--simplifycfg', '--gvn-hoist', '--indvars', '--early-cse-memssa', '--elim-avail-extern', '--licm', '--loop-unroll', '--gvn', '--ipsccp', '--nary-reassociate', '--loop-unroll', '--prune-eh', '--loop-instsimplify', '--early-cse', '--dse', '--mem2reg', '--gvn-hoist', '--globalopt', '--elim-avail-extern', '--instcombine', '--simplifycfg', '--sroa', '--lower-expect', '--sccp', '--newgvn', '--newgvn', '--sroa', '--mergefunc', '--globalopt', '--elim-avail-extern', '--simplifycfg']
+Length: 81
+Cross-Avg Weighted Score: 1.34 (+/- 0.00)
+Cross-Avg Reduction: 3.89% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_77: Score=1.34 (Avg=3.89%, Med=1.50%, Min=-10.43%, Std=7.31%, NegRate=5.7%)

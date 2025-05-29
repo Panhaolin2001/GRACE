@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--nary-reassociate', '--lower-constant-intrinsics', '--loop-instsimplify', '--early-cse', '--mem2reg', '--jump-threading', '--elim-avail-extern', '--sroa', '--instcombine', '--adce', '--jump-threading', '--adce', '--jump-threading', '--mem2reg', '--simplifycfg', '--instsimplify', '--gvn-hoist', '--mergefunc', '--instcombine', '--early-cse', '--ipsccp', '--nary-reassociate', '--licm', '--adce', '--ipsccp', '--simplifycfg', '--jump-threading', '--gvn-hoist', '--sccp', '--elim-avail-extern', '--loop-vectorize', '--mem2reg', '--licm', '--lower-constant-intrinsics', '--globaldce', '--adce', '--early-cse-memssa', '--instcombine', '--mem2reg', '--dce', '--gvn-hoist', '--loop-instsimplify', '--flattencfg', '--mem2reg', '--aggressive-instcombine', '--mem2reg', '--instsimplify', '--sroa', '--instcombine', '--instcombine', '--jump-threading', '--mem2reg', '--slp-vectorizer', '--simplifycfg']
+Length: 54
+Cross-Avg Weighted Score: 0.91 (+/- 0.00)
+Cross-Avg Reduction: 1.39% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_47: Score=0.91 (Avg=1.39%, Med=0.75%, Min=0.00%, Std=1.31%, NegRate=0.0%)

@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--ipsccp', '--reassociate', '--jump-threading', '--loop-simplifycfg', '--gvn', '--elim-avail-extern', '--ipsccp', '--load-store-vectorizer', '--instcombine', '--gvn-hoist', '--inferattrs', '--aggressive-instcombine', '--jump-threading', '--separate-const-offset-from-gep', '--loop-unroll', '--reassociate', '--reassociate', '--newgvn', '--loop-idiom', '--ipsccp', '--jump-threading', '--globalopt', '--gvn', '--sccp', '--gvn', '--simplifycfg', '--slp-vectorizer', '--indvars', '--simplifycfg', '--sroa', '--simplifycfg', '--gvn-hoist', '--separate-const-offset-from-gep', '--mergefunc', '--sroa', '--lowerinvoke', '--loop-unswitch', '--gvn', '--mem2reg', '--jump-threading', '--speculative-execution', '--loop-simplifycfg', '--loweratomic', '--globalopt', '--early-cse', '--instcombine', '--partially-inline-libcalls', '--lower-expect', '--mergefunc', '--lower-expect', '--slp-vectorizer', '--gvn-hoist', '--dse', '--inline', '--elim-avail-extern', '--gvn', '--prune-eh', '--nary-reassociate', '--lower-constant-intrinsics', '--simplifycfg', '--globaldce', '--early-cse', '--mem2reg', '--simplifycfg', '--elim-avail-extern', '--early-cse-memssa', '--simplifycfg', '--sroa', '--correlated-propagation', '--lower-constant-intrinsics', '--lower-constant-intrinsics', '--indvars', '--simplifycfg', '--slsr', '--inferattrs', '--inline', '--lower-expect', '--sroa', '--sccp', '--sroa', '--newgvn', '--elim-avail-extern', '--instcombine', '--lower-expect']
+Length: 84
+Cross-Avg Weighted Score: 1.48 (+/- 0.00)
+Cross-Avg Reduction: 2.51% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_9: Score=1.48 (Avg=2.51%, Med=0.99%, Min=0.00%, Std=3.97%, NegRate=0.0%)

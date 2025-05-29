@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--nary-reassociate', '--lower-constant-intrinsics', '--loop-instsimplify', '--mem2reg', '--loop-simplifycfg', '--strip', '--elim-avail-extern', '--indvars', '--adce', '--elim-avail-extern', '--instsimplify', '--adce', '--aggressive-instcombine', '--jump-threading', '--instsimplify', '--gvn-hoist', '--mergefunc', '--instsimplify', '--jump-threading', '--gvn-hoist', '--mergefunc', '--instcombine', '--memcpyopt', '--simplifycfg', '--early-cse-memssa', '--newgvn', '--instsimplify', '--gvn-hoist', '--gvn-hoist', '--globalopt', '--aggressive-instcombine', '--jump-threading', '--loop-guard-widening', '--early-cse', '--jump-threading', '--partially-inline-libcalls', '--licm', '--sink', '--lower-constant-intrinsics', '--early-cse-memssa', '--adce', '--mergereturn', '--gvn-hoist', '--sroa', '--sroa', '--aggressive-instcombine', '--instsimplify', '--mem2reg', '--instcombine', '--jump-threading', '--speculative-execution', '--simplifycfg', '--speculative-execution', '--nary-reassociate', '--instcombine', '--ipsccp', '--speculative-execution', '--nary-reassociate', '--simplifycfg']
+Length: 59
+Cross-Avg Weighted Score: 1.00 (+/- 0.00)
+Cross-Avg Reduction: 1.55% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_20: Score=1.00 (Avg=1.55%, Med=0.95%, Min=0.00%, Std=1.70%, NegRate=0.0%)

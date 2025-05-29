@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--aggressive-instcombine', '--mem2reg', '--early-cse-memssa', '--strip', '--memcpyopt', '--globalopt', '--instcombine', '--elim-avail-extern', '--mem2reg', '--load-store-vectorizer', '--mldst-motion', '--newgvn', '--slp-vectorizer', '--newgvn', '--correlated-propagation', '--early-cse-memssa', '--load-store-vectorizer', '--inline', '--instcombine', '--lowerinvoke', '--lower-constant-intrinsics', '--lower-constant-intrinsics', '--early-cse-memssa', '--dse', '--reassociate', '--reassociate', '--speculative-execution', '--newgvn', '--simplifycfg', '--gvn-hoist', '--ipsccp', '--inline', '--ipsccp', '--instcombine', '--prune-eh', '--globalopt', '--globaldce', '--simplifycfg', '--globalopt', '--slsr', '--separate-const-offset-from-gep', '--slsr', '--slp-vectorizer', '--flattencfg', '--mldst-motion', '--speculative-execution', '--adce', '--simplifycfg', '--sroa', '--nary-reassociate', '--early-cse-memssa']
+Length: 51
+Cross-Avg Weighted Score: 7.08 (+/- 0.00)
+Cross-Avg Reduction: 12.01% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_10: Score=7.08 (Avg=12.01%, Med=4.34%, Min=-6.67%, Std=15.69%, NegRate=2.4%)

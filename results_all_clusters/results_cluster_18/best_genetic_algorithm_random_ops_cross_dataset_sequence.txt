@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--elim-avail-extern', '--inline', '--functionattrs', '--globalopt', '--instsimplify', '--simplifycfg', '--early-cse-memssa', '--elim-avail-extern', '--early-cse-memssa', '--sroa', '--ipsccp', '--dse', '--jump-threading', '--instcombine', '--lowerinvoke', '--indvars', '--early-cse-memssa', '--newgvn', '--inferattrs', '--reassociate', '--simplifycfg', '--slp-vectorizer', '--jump-threading', '--gvn-hoist', '--newgvn', '--mldst-motion', '--dse', '--simplifycfg', '--strip', '--simplifycfg', '--globaldce', '--instcombine', '--nary-reassociate', '--prune-eh', '--newgvn', '--simplifycfg', '--aggressive-instcombine', '--instcombine', '--speculative-execution', '--gvn-hoist', '--elim-avail-extern']
+Length: 41
+Cross-Avg Weighted Score: -4.92 (+/- 0.00)
+Cross-Avg Reduction: 0.35% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_18: Score=-4.92 (Avg=0.35%, Med=0.00%, Min=-106.82%, Std=14.86%, NegRate=24.7%)

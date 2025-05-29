@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--gvn-hoist', '--reassociate', '--reassociate', '--loop-simplifycfg', '--indvars', '--sccp', '--mem2reg', '--aggressive-instcombine', '--adce', '--instcombine', '--loop-reroll', '--load-store-vectorizer', '--early-cse-memssa', '--instcombine', '--early-cse-memssa', '--reassociate', '--mem2reg', '--sroa', '--jump-threading', '--mergereturn', '--loop-simplifycfg', '--instcombine', '--ipsccp', '--ipsccp', '--loop-simplifycfg', '--mergefunc', '--early-cse-memssa', '--instsimplify', '--simplifycfg', '--jump-threading', '--instcombine', '--mem2reg', '--gvn-hoist', '--newgvn', '--simplifycfg', '--gvn', '--reassociate', '--ipsccp', '--sroa', '--lowerinvoke', '--sroa', '--early-cse', '--mem2reg', '--jump-threading', '--simplifycfg', '--functionattrs', '--lower-constant-intrinsics', '--early-cse-memssa', '--aggressive-instcombine', '--loop-simplifycfg', '--nary-reassociate', '--sroa', '--early-cse', '--memcpyopt', '--correlated-propagation', '--correlated-propagation', '--memcpyopt', '--correlated-propagation', '--loop-simplifycfg', '--sroa', '--sroa', '--early-cse', '--scalarizer', '--scalarizer', '--gvn', '--jump-threading', '--slp-vectorizer', '--instcombine', '--sroa', '--sroa', '--simplifycfg', '--early-cse-memssa', '--ipsccp', '--dce', '--gvn', '--gvn', '--gvn-hoist']
+Length: 77
+Cross-Avg Weighted Score: 1.51 (+/- 0.00)
+Cross-Avg Reduction: 5.60% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_81: Score=1.51 (Avg=5.60%, Med=2.09%, Min=-0.73%, Std=8.13%, NegRate=12.5%)

@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--ipsccp', '--speculative-execution', '--sccp', '--early-cse', '--mem2reg', '--jump-threading', '--globalopt', '--elim-avail-extern', '--elim-avail-extern', '--instcombine', '--loop-instsimplify', '--instcombine', '--loop-instsimplify', '--jump-threading', '--gvn', '--simplifycfg', '--loweratomic', '--inline', '--mergefunc', '--gvn-hoist', '--elim-avail-extern', '--loweratomic', '--indvars', '--indvars', '--gvn', '--gvn', '--ipsccp', '--gvn', '--nary-reassociate', '--mem2reg', '--jump-threading', '--correlated-propagation', '--mem2reg', '--memcpyopt', '--jump-threading', '--bdce', '--elim-avail-extern', '--instcombine', '--memcpyopt', '--simplifycfg', '--sroa', '--lower-constant-intrinsics', '--adce', '--slsr', '--gvn-hoist', '--adce', '--loop-simplifycfg', '--loop-simplify', '--adce', '--loop-simplify', '--dse', '--scalarizer', '--scalarizer', '--simplifycfg', '--lower-expect', '--simplifycfg', '--elim-avail-extern', '--lower-constant-intrinsics', '--lower-constant-intrinsics', '--ipsccp', '--nary-reassociate', '--adce', '--lower-expect', '--loop-guard-widening', '--jump-threading', '--slp-vectorizer', '--instcombine', '--slp-vectorizer', '--instcombine', '--simplifycfg', '--sroa', '--early-cse', '--early-cse', '--lower-expect', '--aggressive-instcombine']
+Length: 75
+Cross-Avg Weighted Score: -3.53 (+/- 0.00)
+Cross-Avg Reduction: -0.72% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_55: Score=-3.53 (Avg=-0.72%, Med=0.56%, Min=-67.51%, Std=12.27%, NegRate=11.8%)

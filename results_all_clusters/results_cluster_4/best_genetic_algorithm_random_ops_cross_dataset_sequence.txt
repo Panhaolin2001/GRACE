@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--functionattrs', '--gvn-hoist', '--nary-reassociate', '--inferattrs', '--newgvn', '--lower-constant-intrinsics', '--early-cse', '--aggressive-instcombine', '--simplifycfg', '--gvn-hoist', '--speculative-execution', '--jump-threading', '--ipsccp', '--gvn-hoist', '--simple-loop-unswitch', '--early-cse-memssa', '--mem2reg', '--ipsccp', '--ipsccp', '--early-cse', '--globalopt', '--mem2reg', '--early-cse-memssa', '--reassociate', '--gvn-hoist', '--sccp', '--mem2reg', '--early-cse-memssa', '--gvn', '--jump-threading', '--gvn-hoist', '--globalopt', '--mem2reg', '--early-cse-memssa', '--early-cse-memssa', '--lowerinvoke', '--instcombine', '--elim-avail-extern', '--gvn', '--reassociate', '--reassociate', '--globalopt', '--newgvn', '--instsimplify', '--simplifycfg', '--slsr', '--loop-versioning-licm', '--mem2reg', '--ipsccp', '--loop-simplifycfg', '--newgvn', '--simplifycfg', '--mergefunc', '--mldst-motion', '--instcombine', '--loop-simplifycfg', '--ipsccp', '--jump-threading', '--gvn', '--nary-reassociate', '--gvn-hoist', '--memcpyopt', '--loop-instsimplify', '--instsimplify', '--gvn-hoist', '--simplifycfg', '--mem2reg', '--ipsccp', '--instcombine', '--prune-eh', '--prune-eh', '--sroa', '--speculative-execution', '--simplifycfg', '--speculative-execution', '--simplifycfg', '--mergefunc', '--loop-deletion', '--loop-simplifycfg', '--dse', '--loop-simplifycfg', '--aggressive-instcombine', '--loop-simplifycfg', '--aggressive-instcombine', '--loop-simplifycfg', '--globalopt', '--mem2reg', '--gvn', '--mem2reg', '--lower-constant-intrinsics', '--early-cse-memssa', '--globalopt', '--gvn', '--instcombine', '--adce', '--simplifycfg', '--gvn-hoist', '--simplifycfg', '--gvn-hoist', '--early-cse-memssa']
+Length: 100
+Cross-Avg Weighted Score: 1.47 (+/- 0.00)
+Cross-Avg Reduction: 10.22% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_4: Score=1.47 (Avg=10.22%, Med=3.70%, Min=-22.00%, Std=19.07%, NegRate=28.6%)

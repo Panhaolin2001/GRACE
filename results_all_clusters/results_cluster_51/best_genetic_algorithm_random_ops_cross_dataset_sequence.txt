@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--lower-constant-intrinsics', '--aggressive-instcombine', '--gvn-hoist', '--globalopt', '--newgvn', '--loop-instsimplify', '--load-store-vectorizer', '--instcombine', '--elim-avail-extern', '--mergefunc', '--reassociate', '--mem2reg', '--instcombine', '--lowerinvoke', '--prune-eh', '--simplifycfg', '--aggressive-instcombine', '--nary-reassociate', '--jump-threading', '--inline', '--load-store-vectorizer', '--mergefunc', '--scalarizer', '--lower-constant-intrinsics', '--early-cse-memssa', '--instsimplify', '--elim-avail-extern', '--early-cse-memssa', '--lower-expect', '--loop-instsimplify', '--early-cse', '--slp-vectorizer', '--mergefunc', '--sroa', '--speculative-execution', '--instcombine', '--prune-eh', '--simplifycfg', '--simplifycfg', '--mem2reg', '--ipsccp', '--newgvn', '--sroa', '--jump-threading', '--instcombine', '--sroa', '--gvn-hoist', '--simplifycfg', '--mem2reg', '--correlated-propagation', '--newgvn', '--elim-avail-extern', '--ipsccp', '--aggressive-instcombine', '--licm', '--licm', '--bdce', '--lower-constant-intrinsics', '--adce', '--loop-simplifycfg', '--sroa', '--sccp', '--loop-sink', '--instcombine', '--mem2reg', '--loop-sink', '--instcombine', '--mem2reg', '--early-cse', '--elim-avail-extern', '--ipsccp', '--adce', '--gvn-hoist', '--early-cse-memssa', '--instsimplify', '--correlated-propagation', '--loop-instsimplify', '--instsimplify', '--correlated-propagation', '--loop-instsimplify', '--early-cse', '--separate-const-offset-from-gep', '--gvn', '--lower-expect', '--mem2reg', '--bdce', '--newgvn', '--sink', '--gvn-hoist', '--gvn', '--gvn', '--jump-threading', '--simplifycfg', '--bdce', '--slp-vectorizer', '--instsimplify', '--ipconstprop', '--instcombine', '--simplifycfg']
+Length: 99
+Cross-Avg Weighted Score: 1.26 (+/- 0.00)
+Cross-Avg Reduction: 1.86% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_51: Score=1.26 (Avg=1.86%, Med=1.63%, Min=0.41%, Std=1.36%, NegRate=0.0%)

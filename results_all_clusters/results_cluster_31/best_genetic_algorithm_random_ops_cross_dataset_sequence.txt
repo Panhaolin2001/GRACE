@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--speculative-execution', '--reassociate', '--gvn', '--load-store-vectorizer', '--early-cse-memssa', '--early-cse-memssa', '--simplifycfg', '--early-cse-memssa', '--instsimplify', '--sroa', '--simplifycfg', '--simple-loop-unswitch', '--ipsccp', '--early-cse', '--prune-eh', '--simplifycfg', '--sink', '--sroa', '--nary-reassociate', '--jump-threading', '--globaldce', '--mergefunc', '--jump-threading', '--mem2reg', '--instcombine', '--sccp', '--instcombine', '--sccp', '--lower-constant-intrinsics', '--mergefunc', '--slp-vectorizer', '--aggressive-instcombine', '--early-cse-memssa', '--lower-expect', '--loop-instsimplify', '--early-cse', '--early-cse-memssa', '--reassociate', '--gvn', '--loop-simplifycfg', '--functionattrs', '--instcombine', '--early-cse-memssa', '--jump-threading', '--sccp', '--early-cse', '--adce', '--adce', '--dce', '--loop-instsimplify', '--lower-expect', '--jump-threading', '--newgvn', '--simplifycfg', '--indvars', '--ipsccp', '--jump-threading', '--licm', '--sccp', '--licm', '--separate-const-offset-from-gep', '--adce', '--adce', '--loop-simplifycfg', '--correlated-propagation', '--sroa', '--sccp', '--die', '--lower-constant-intrinsics', '--mem2reg', '--early-cse', '--early-cse', '--loop-guard-widening', '--elim-avail-extern', '--loop-predication', '--gvn-hoist', '--gvn-hoist', '--early-cse-memssa', '--instsimplify', '--early-cse', '--gvn', '--lower-expect', '--mem2reg', '--ipsccp', '--newgvn', '--lower-expect', '--die', '--gvn', '--gvn', '--jump-threading', '--hotcoldsplit', '--mem2reg', '--bdce', '--slp-vectorizer', '--instsimplify', '--slp-vectorizer', '--instcombine', '--simplifycfg']
+Length: 98
+Cross-Avg Weighted Score: 0.87 (+/- 0.00)
+Cross-Avg Reduction: 5.59% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_31: Score=0.87 (Avg=5.59%, Med=0.59%, Min=-1.47%, Std=8.16%, NegRate=16.7%)

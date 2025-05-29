@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--loop-unroll', '--inline', '--loop-sink', '-loop-reduce', '--flattencfg', '--reg2mem', '--partially-inline-libcalls', '--gvn-hoist', '--lower-constant-intrinsics', '--hotcoldsplit', '--loop-guard-widening', '--early-cse-memssa', '--dce', '--indvars', '--mem2reg', '--loop-instsimplify', '--strip', '--lowerinvoke', '--ipsccp', '--loop-predication', '--reassociate', '--scalarizer', '--adce', '--gvn-hoist', '--globaldce', '--prune-eh', '--instcombine', '--load-store-vectorizer', '--elim-avail-extern', '--memcpyopt', '--ipconstprop', '--sink', '--gvn', '--loop-reroll', '--prune-eh', '--slsr', '--globaldce', '--loop-fusion', '--jump-threading', '--break-crit-edges', '--die', '--simplifycfg', '--inferattrs', '--loop-idiom', '--dce', '--loop-idiom', '--ipsccp', '--mldst-motion', '--early-cse', '--licm', '--lowerswitch', '--scalarizer', '--memcpyopt', '--loop-unroll-and-jam', '--load-store-vectorizer', '--loop-rotate', '--sink']
+Length: 57
+Cross-Avg Weighted Score: 15.20 (+/- 0.00)
+Cross-Avg Reduction: 20.26% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_97: Score=15.20 (Avg=20.26%, Med=20.26%, Min=20.26%, Std=0.00%, NegRate=0.0%)

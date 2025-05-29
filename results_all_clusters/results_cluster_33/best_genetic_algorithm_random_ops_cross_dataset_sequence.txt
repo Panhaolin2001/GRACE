@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--loop-reroll', '--mergefunc', '--inline', '--memcpyopt', '--speculative-execution', '--memcpyopt', '--newgvn', '--ipsccp', '--mem2reg', '--lower-expect', '--sroa', '--instsimplify', '--licm', '--indvars', '--inline', '--ipsccp', '--indvars', '--globalopt', '--adce', '--nary-reassociate', '--jump-threading', '--tailcallelim', '--mergereturn', '--loop-predication', '--licm', '--newgvn', '--gvn-hoist', '--loop-idiom', '--early-cse-memssa', '--instsimplify', '--gvn', '--globalopt', '--gvn', '--instsimplify', '--gvn-hoist', '--mergefunc', '--slp-vectorizer', '--ipsccp', '--loop-simplifycfg', '--mem2reg', '--aggressive-instcombine', '--early-cse-memssa', '--adce', '--lower-constant-intrinsics', '--simplifycfg', '--correlated-propagation', '--sccp', '--sccp', '--slsr', '--nary-reassociate', '--loop-sink', '--sroa', '--loop-sink', '--sroa', '--early-cse', '--loop-versioning-licm', '--sroa', '--early-cse', '--instsimplify', '--ipsccp', '--loop-simplifycfg', '--sroa', '--ipsccp', '--licm', '--slp-vectorizer', '--gvn', '--jump-threading', '--instcombine', '--instcombine', '--sroa', '--simplifycfg', '--early-cse-memssa', '--ipsccp', '--partially-inline-libcalls']
+Length: 74
+Cross-Avg Weighted Score: 0.99 (+/- 0.00)
+Cross-Avg Reduction: 1.58% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_33: Score=0.99 (Avg=1.58%, Med=0.63%, Min=0.00%, Std=1.98%, NegRate=0.0%)

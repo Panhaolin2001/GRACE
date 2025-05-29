@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--inline', '--elim-avail-extern', '--simplifycfg', '--early-cse-memssa', '--gvn-hoist', '--loop-predication', '--mem2reg', '--jump-threading', '--jump-threading', '--speculative-execution', '--gvn-hoist', '--loop-unroll-and-jam', '--dse', '--newgvn', '--sroa', '--irce', '--adce', '--mldst-motion', '--globalopt', '--jump-threading', '--inferattrs', '--instcombine', '--aggressive-instcombine', '--lowerinvoke', '--nary-reassociate', '--indvars', '--indvars', '--mem2reg', '--simplifycfg', '--gvn-hoist', '--tailcallelim', '--speculative-execution', '--aggressive-instcombine', '--mem2reg', '--simplifycfg', '--early-cse-memssa', '--jump-threading', '--correlated-propagation', '--nary-reassociate', '--slp-vectorizer', '--mem2reg', '--gvn-hoist', '--jump-threading', '--bdce', '--instsimplify', '--elim-avail-extern', '--instcombine', '--jump-threading', '--separate-const-offset-from-gep', '--elim-avail-extern', '--lower-expect', '--loop-instsimplify', '--early-cse', '--early-cse-memssa', '--gvn-hoist', '--break-crit-edges', '--simplifycfg', '--aggressive-instcombine', '--gvn-hoist', '--simplifycfg']
+Length: 60
+Cross-Avg Weighted Score: -2.63 (+/- 0.00)
+Cross-Avg Reduction: 3.35% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_8: Score=-2.63 (Avg=3.35%, Med=1.40%, Min=-101.79%, Std=15.69%, NegRate=23.8%)

@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--loop-simplifycfg', '--simplifycfg', '--mem2reg', '--early-cse-memssa', '--globalopt', '--nary-reassociate', '--nary-reassociate', '--lowerinvoke', '--load-store-vectorizer', '--elim-avail-extern', '--newgvn', '--globalopt', '--elim-avail-extern', '--loop-simplifycfg', '--ipsccp', '--loop-simplifycfg', '--instcombine', '--mem2reg', '--adce', '--newgvn', '--simplifycfg', '--early-cse-memssa', '--newgvn', '--instsimplify', '--gvn-hoist', '--globalopt', '--licm', '--early-cse-memssa', '--instcombine', '--adce', '--jump-threading', '--gvn', '--simplifycfg', '--instsimplify', '--gvn-hoist', '--mergefunc', '--sroa', '--early-cse', '--instsimplify', '--ipsccp', '--loop-simplifycfg', '--sroa', '--early-cse', '--ipsccp', '--licm', '--instcombine', '--gvn', '--jump-threading', '--instcombine', '--sroa', '--simplifycfg', '--early-cse-memssa', '--ipsccp', '--gvn', '--newgvn']
+Length: 55
+Cross-Avg Weighted Score: 0.75 (+/- 0.00)
+Cross-Avg Reduction: 1.00% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_32: Score=0.75 (Avg=1.00%, Med=1.00%, Min=1.00%, Std=0.00%, NegRate=0.0%)

@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--loop-reroll', '--mem2reg', '--early-cse', '--loop-simplifycfg', '--separate-const-offset-from-gep', '--early-cse-memssa', '--simplifycfg', '--slsr', '--globalopt', '--elim-avail-extern', '--loop-fusion', '--adce', '--lowerinvoke', '--loop-idiom', '--instcombine', '--licm', '--inline', '--inline', '--instcombine', '--hotcoldsplit', '--jump-threading', '--loop-unroll-and-jam', '--sroa', '--loweratomic', '--functionattrs', '--early-cse', '--memcpyopt', '--aggressive-instcombine', '-loop-reduce', '--lowerinvoke', '--slsr', '--irce', '--indvars', '--indvars', '--simplifycfg', '--gvn-hoist', '--slp-vectorizer', '--instsimplify', '--early-cse', '--mergefunc', '--sroa', '--early-cse', '--instsimplify', '--ipsccp', '--sink', '--partially-inline-libcalls', '--sroa', '--memcpyopt', '--slp-vectorizer', '--indvars', '--licm', '--early-cse', '--loop-unswitch', '--jump-threading', '--instcombine', '--gvn', '--early-cse-memssa', '--nary-reassociate', '--prune-eh', '--load-store-vectorizer', '--loop-deletion', '--lower-expect', '--loop-instsimplify', '--early-cse', '--early-cse-memssa', '--instsimplify', '--gvn-hoist', '--simplifycfg', '--mem2reg', '--ipsccp', '--instcombine', '--prune-eh', '--simplifycfg', '--sroa', '--simplifycfg', '--mergefunc', '--mem2reg', '--elim-avail-extern', '--early-cse', '--newgvn', '--globaldce', '--ipsccp', '--loop-simplifycfg', '--sroa', '--elim-avail-extern', '--correlated-propagation', '--gvn', '--lower-constant-intrinsics', '--load-store-vectorizer', '--lower-constant-intrinsics', '--load-store-vectorizer', '--early-cse-memssa', '--newgvn', '--instcombine', '--adce', '--simplifycfg', '--gvn-hoist', '--slsr']
+Length: 98
+Cross-Avg Weighted Score: 4.14 (+/- 0.00)
+Cross-Avg Reduction: 8.12% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_75: Score=4.14 (Avg=8.12%, Med=2.09%, Min=-4.55%, Std=13.71%, NegRate=3.8%)

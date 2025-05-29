@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--inline', '--elim-avail-extern', '--simplifycfg', '--early-cse-memssa', '--early-cse', '--early-cse-memssa', '--functionattrs', '--jump-threading', '--dse', '--jump-threading', '--reassociate', '--newgvn', '--early-cse-memssa', '--dse', '--elim-avail-extern', '--memcpyopt', '--jump-threading', '--globalopt', '--instcombine', '--sink', '--dse', '--lowerswitch', '--jump-threading', '--early-cse-memssa', '--gvn-hoist', '--newgvn', '--gvn-hoist', '--instcombine', '--globalopt', '--simplifycfg', '--globalopt', '--globalopt', '--loop-vectorize', '--simplifycfg', '--newgvn', '--instcombine', '--early-cse-memssa', '--instcombine', '--elim-avail-extern', '--aggressive-instcombine', '--mem2reg', '--sroa', '--sroa', '--instcombine', '--jump-threading', '--aggressive-instcombine', '--mem2reg', '--instsimplify', '--instsimplify', '--instcombine', '--jump-threading', '--jump-threading']
+Length: 52
+Cross-Avg Weighted Score: 1.49 (+/- 0.00)
+Cross-Avg Reduction: 2.18% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_85: Score=1.49 (Avg=2.18%, Med=2.02%, Min=0.34%, Std=1.43%, NegRate=0.0%)

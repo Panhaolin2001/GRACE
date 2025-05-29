@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--loop-fusion', '--irce', '--jump-threading', '--elim-avail-extern', '--gvn-hoist', '--inline', '--elim-avail-extern', '--loop-guard-widening', '--newgvn', '--newgvn', '--lower-constant-intrinsics', '--loop-instsimplify', '--speculative-execution', '--early-cse', '--gvn-hoist', '--mem2reg', '--jump-threading', '--elim-avail-extern', '--instcombine', '--reassociate', '--elim-avail-extern', '--elim-avail-extern', '--gvn-hoist', '--simplifycfg', '--flattencfg', '--lowerinvoke', '--lowerinvoke', '--lowerinvoke', '--early-cse-memssa', '--load-store-vectorizer', '--gvn-hoist', '--mem2reg', '--jump-threading', '--functionattrs', '--globalopt', '--instcombine', '--speculative-execution', '--simplifycfg', '--mem2reg', '--sroa', '--sccp', '--globaldce', '--gvn-hoist', '--strip', '--nary-reassociate', '--jump-threading', '--lower-expect', '--partially-inline-libcalls', '--tailcallelim', '--early-cse-memssa', '--instsimplify', '--instcombine', '--simplifycfg', '--early-cse-memssa', '--separate-const-offset-from-gep', '--instsimplify', '--ipsccp', '--simplifycfg', '--loop-instsimplify', '--newgvn', '--adce', '--simplifycfg', '--simplifycfg', '--mem2reg']
+Length: 64
+Cross-Avg Weighted Score: 7.08 (+/- 0.00)
+Cross-Avg Reduction: 14.84% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_2: Score=7.08 (Avg=14.84%, Med=12.31%, Min=-23.14%, Std=16.85%, NegRate=15.7%)

@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--slsr', '--instcombine', '--instcombine', '--sroa', '--gvn-hoist', '--flattencfg', '--speculative-execution', '--early-cse', '--lower-constant-intrinsics', '--reassociate', '--nary-reassociate', '--gvn-hoist', '--adce', '--flattencfg', '--indvars', '--simplifycfg', '--instsimplify', '--functionattrs', '--gvn-hoist', '--instcombine', '--newgvn', '--loop-vectorize', '--ipsccp', '--nary-reassociate', '--lower-constant-intrinsics', '--loop-instsimplify', '--loop-instsimplify', '--early-cse', '--bdce', '--jump-threading', '--globalopt', '--elim-avail-extern', '--instcombine', '--instsimplify', '--gvn-hoist', '--early-cse-memssa', '--lower-expect', '--mergefunc', '--early-cse', '--early-cse-memssa', '--lower-constant-intrinsics', '--lowerinvoke', '--mldst-motion', '--simplifycfg', '--dse', '--lower-expect', '--simplifycfg', '--simplifycfg', '--mergefunc', '--mergefunc', '--mergefunc', '--elim-avail-extern', '--early-cse', '--nary-reassociate', '--lower-constant-intrinsics', '--loop-instsimplify', '--loop-idiom', '--loop-instsimplify', '--early-cse', '--load-store-vectorizer', '--early-cse-memssa', '--lowerinvoke', '--early-cse', '--elim-avail-extern', '--instsimplify', '--instsimplify', '--gvn-hoist', '--simplifycfg', '--mem2reg', '--instcombine', '--elim-avail-extern', '--sroa', '--simplifycfg', '--globalopt', '--globalopt', '--mem2reg', '--correlated-propagation', '--loop-simplifycfg', '--ipsccp', '--loop-idiom', '--gvn', '--newgvn', '--sroa', '--elim-avail-extern', '--mem2reg', '--gvn', '--prune-eh', '--gvn', '--jump-threading', '--jump-threading', '--early-cse', '--mem2reg', '--bdce', '--bdce', '--slsr', '--slp-vectorizer', '--instcombine', '--gvn-hoist', '--instcombine', '--simplifycfg']
+Length: 100
+Cross-Avg Weighted Score: 6.66 (+/- 0.00)
+Cross-Avg Reduction: 14.26% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_83: Score=6.66 (Avg=14.26%, Med=6.98%, Min=-16.84%, Std=18.22%, NegRate=14.8%)

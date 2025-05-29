@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--functionattrs', '--elim-avail-extern', '--nary-reassociate', '--loop-instsimplify', '--inline', '--instcombine', '--mem2reg', '--mergefunc', '--reassociate', '--newgvn', '--ipsccp', '--newgvn', '--sroa', '--mergefunc', '--loop-reroll', '--separate-const-offset-from-gep', '--simple-loop-unswitch', '--gvn', '--ipconstprop', '--bdce', '--slp-vectorizer', '--aggressive-instcombine', '--simplifycfg', '--newgvn', '--newgvn', '--instsimplify', '--gvn-hoist', '--lowerinvoke', '--instcombine', '--adce', '--jump-threading', '--early-cse', '--early-cse', '--gvn', '--simplifycfg', '--gvn-hoist', '--lowerinvoke', '--mergefunc', '--adce', '--ipsccp', '--loop-simplifycfg', '--instsimplify', '--jump-threading', '--instsimplify', '--early-cse', '--reassociate', '--instcombine', '--slp-vectorizer', '--instcombine', '--speculative-execution', '--loop-fusion', '--die', '--instcombine', '--hotcoldsplit', '--instcombine', '--slp-vectorizer', '--speculative-execution', '--die', '--simplifycfg']
+Length: 59
+Cross-Avg Weighted Score: 2.00 (+/- 0.00)
+Cross-Avg Reduction: 3.42% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_87: Score=2.00 (Avg=3.42%, Med=1.14%, Min=0.20%, Std=5.61%, NegRate=0.0%)

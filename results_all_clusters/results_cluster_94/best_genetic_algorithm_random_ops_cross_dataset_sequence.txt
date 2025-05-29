@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--newgvn', '--jump-threading', '--die', '--ipsccp', '--newgvn', '--lower-constant-intrinsics', '--inferattrs', '--jump-threading', '--elim-avail-extern', '--functionattrs', '--gvn', '--newgvn', '--sroa', '--mem2reg', '--jump-threading', '--gvn-hoist', '--instcombine', '--simplifycfg', '--mldst-motion', '--instcombine', '--correlated-propagation', '--gvn-hoist', '--simplifycfg', '--functionattrs', '--ipsccp', '--nary-reassociate', '--early-cse', '--reassociate', '--lower-expect', '--aggressive-instcombine', '--mldst-motion', '--nary-reassociate', '--slsr', '--jump-threading', '--loop-instsimplify', '--elim-avail-extern', '--instcombine', '--early-cse', '--memcpyopt', '--globalopt', '--newgvn', '--gvn-hoist', '--partially-inline-libcalls', '--jump-threading', '--simplifycfg', '--globalopt', '--adce']
+Length: 47
+Cross-Avg Weighted Score: -2.91 (+/- 0.00)
+Cross-Avg Reduction: 5.60% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_94: Score=-2.91 (Avg=5.60%, Med=1.91%, Min=-28.40%, Std=15.22%, NegRate=37.3%)

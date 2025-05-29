@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--jump-threading', '--instsimplify', '--strip', '--hotcoldsplit', '--speculative-execution', '--loop-rotate', '--sink', '--ipsccp', '--strip', '-loop-reduce', '--loop-guard-widening', '--loop-predication', '--tailcallelim', '--ipsccp', '--partially-inline-libcalls', '--slsr', '--nary-reassociate', '--loop-unroll-and-jam', '--loop-unroll', '--mem2reg', '--reassociate', '--dce', '--gvn-hoist', '--inline', '--loop-versioning-licm', '--mergereturn', '--loop-simplify', '--early-cse-memssa', '--break-crit-edges', '--lowerswitch', '--prune-eh', '--inferattrs', '--loop-fusion', '--scalarizer', '--ipconstprop', '--loop-vectorize', '--die', '--lower-constant-intrinsics', '--mldst-motion', '--correlated-propagation', '--bdce', '--hotcoldsplit', '--memcpyopt', '--loop-instsimplify', '--aggressive-instcombine', '--functionattrs', '--lowerinvoke', '--loop-reroll', '--globaldce', '--gvn', '--sroa', '--load-store-vectorizer', '--separate-const-offset-from-gep', '--newgvn', '--irce', '--gvn-hoist', '--loweratomic', '--sccp', '--simple-loop-unswitch', '--partially-inline-libcalls', '--lower-expect', '--globalopt', '--loop-idiom', '--indvars', '--dse', '--loop-unswitch', '--loop-sink', '--licm', '--adce', '--loop-interchange', '--slp-vectorizer', '--licm', '--reassociate']
+Length: 73
+Cross-Avg Weighted Score: 0.00 (+/- 0.00)
+Cross-Avg Reduction: 0.00% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_14: Score=0.00 (Avg=0.00%, Med=0.00%, Min=0.00%, Std=0.00%, NegRate=0.0%)

@@ -1,0 +1,10 @@
+Best Sequence Found via Cross-Dataset Genetic Algorithm (Random Ops)
+======================================================================
+Sequence: ['--loop-simplifycfg', '--jump-threading', '--ipsccp', '--loop-simplifycfg', '--mem2reg', '--mergefunc', '--gvn-hoist', '--loop-reroll', '--nary-reassociate', '--loop-idiom', '--lower-constant-intrinsics', '--ipsccp', '--licm', '--instcombine', '--simplifycfg', '--inline', '--ipsccp', '--loop-simplifycfg', '--newgvn', '--sroa', '--elim-avail-extern', '--mem2reg', '--lower-constant-intrinsics', '--load-store-vectorizer', '--early-cse-memssa', '--instsimplify', '--licm', '--simplifycfg', '--mem2reg', '--jump-threading', '--nary-reassociate', '--early-cse-memssa', '--adce', '--early-cse-memssa', '--instsimplify', '--gvn-hoist', '--early-cse-memssa', '--early-cse-memssa', '--lower-expect', '--loop-instsimplify', '--early-cse', '--early-cse-memssa', '--instsimplify', '--mem2reg', '--globalopt', '--loop-fusion', '--loop-fusion', '--globalopt', '--simplifycfg', '--gvn-hoist', '--instcombine', '--loop-simplifycfg', '--correlated-propagation', '--ipsccp', '--gvn', '--early-cse-memssa', '--elim-avail-extern', '--prune-eh', '--instsimplify', '--early-cse-memssa', '--loop-instsimplify', '--loop-fusion', '--early-cse', '--early-cse-memssa', '--loop-instsimplify', '--gvn-hoist', '--simplifycfg', '--mem2reg', '--sink', '--loop-unroll', '--indvars', '--instcombine', '--prune-eh', '--simplifycfg', '--sroa', '--mergefunc', '--mem2reg', '--early-cse', '--loop-simplifycfg', '--early-cse-memssa', '--ipsccp', '--scalarizer', '--slp-vectorizer', '--loop-predication', '--newgvn', '--sroa', '--elim-avail-extern', '--lower-constant-intrinsics', '--load-store-vectorizer', '--early-cse-memssa', '--correlated-propagation', '--mem2reg', '--instcombine', '--loop-versioning-licm', '--adce', '--simplifycfg', '--gvn-hoist', '--early-cse-memssa']
+Length: 98
+Cross-Avg Weighted Score: 4.91 (+/- 0.00)
+Cross-Avg Reduction: 9.23% (+/- 0.00)
+Successful Datasets: 1/1
+
+Performance on Individual Datasets:
+  - cluster_86: Score=4.91 (Avg=9.23%, Med=1.50%, Min=0.00%, Std=20.08%, NegRate=0.0%)
